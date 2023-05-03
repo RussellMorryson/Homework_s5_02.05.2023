@@ -44,18 +44,7 @@ public class Task_2 {
         }
         return treeMap;
     }
-    static void showMap(Map <String, Integer> smap) {
-        
-        for (Map.Entry <String, Integer> entry : smap.entrySet()) {
-            for (Map.Entry <String, Integer> entry2 : smap.entrySet()) {
-                if (entry.getValue() > entry2.getValue()) {
-                    
-                }
-            }
-        }
-        
-        
-
+    static void showMap(Map <String, Integer> smap) {        
         for (Map.Entry <String, Integer> entry : smap.entrySet()) {            
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
